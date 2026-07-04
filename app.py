@@ -15,7 +15,7 @@ from google.genai import types
 from placement_copilot.agent import root_agent
 from placement_copilot.security.guardrails import sanitize_input
 
-load_dotenv()
+load_dotenv(override=True)
 
 st.set_page_config(page_title="Placement Copilot", page_icon="🎯")
 st.title("🎯 Placement Copilot")
